@@ -1,2 +1,1 @@
-# techdegree-project1
- Tech degree project 1
+# Techdegree Project 1

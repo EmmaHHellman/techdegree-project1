@@ -23,7 +23,7 @@ a:hover {
 
 /* Section Styles */
 
-.main-nav {
+nav {
   width: 100%;
   background: black;
   min-height: 30px;
@@ -66,13 +66,19 @@ header {
 .header-experience {
   background: url('images/code.jpg') no-repeat center center ;
 }
+
+.header-interests {
+  background: url('images/piano.jpg') no-repeat center center;
+}
+
+
 header .profile-image {
   margin-top: 50px;
   width: 150px;
   height: 150px;
-  border-radius: 50%;
-  border: 3px solid white;
-  transition: all .5s;
+  border-radius: 60%;
+  border: 8px solid black;
+  transition: all .9s;
   object-fit: cover
 }
 header .profile-image:hover {
@@ -90,7 +96,7 @@ header .profile-image:hover {
   background-color: #222;
   color: yellow;
 }
-.card {
+section {
   margin: 30px;
   padding: 20px 40px 40px;
   max-width: 500px;
@@ -100,7 +106,7 @@ header .profile-image:hover {
   border-radius: 6px;
   transition: all .5s;
 }
-.card:hover {
+section:hover {
   border-color: #ff99ff;
 }
 
